@@ -1,4 +1,5 @@
-import React from 'react';
+import React from "react";
+import css from "./Transaction.module.css"
 
 function TransactionString({ type, amount, currency }) {
   return (
@@ -12,7 +13,7 @@ function TransactionString({ type, amount, currency }) {
 
 const TransactionHistory = ({ items }) => {
   return (
-    <table>
+    <table className={css.transList}>
       <thead>
         <tr>
           <th>Type</th>

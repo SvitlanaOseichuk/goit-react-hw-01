@@ -1,0 +1,29 @@
+
+.transList {
+    margin-top: 50px;
+    width: 100%;
+    border-collapse: collapse;
+    color: rgb(54, 53, 53);
+    font-size: 20px;
+    font-weight: 500;
+}
+
+th, td {
+    border: 2px solid rgb(81, 78, 78);
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+
+th {
+    background-color: rgb(54, 53, 53);
+    color: rgb(247, 239, 243);
+}
+
+tr:nth-child(even):not(:first-child) {
+    background-color: rgb(212, 206, 209); 
+}
+  
+  tr:nth-child(odd) {
+    background-color: rgb(247, 239, 243);
+}
